@@ -18,7 +18,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     /* 1. trocar a cor de fundo para #eee */
-    background-color: rgb(19, 17, 17);
+    background-color: #eee;
 }
 
 a {
