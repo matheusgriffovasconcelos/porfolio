@@ -18,7 +18,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     /* 1. trocar a cor de fundo para #eee */
-    background-color: #eee;
+    background-color: black;
 }
 
 a {
@@ -44,7 +44,7 @@ hr {
 
 .areaesquerda {
     width: 18vw;
-    background-color: white;
+    background-color: rgb(95, 89, 89);
     /* 5. posicionamento fixo */
     position: fixed;
     /* 6. altura de 100% da área de visualização */
@@ -70,6 +70,7 @@ hr {
 .areaesquerda p a {
     font-size: 20px;
     transition: 500ms linear;
+    color: white;
 }
 
 .areaesquerda p a:hover {
@@ -99,7 +100,7 @@ hr {
     position: relative;
     /* 14. afastamento esquerdo de 18% */
     left: 18vw;
-    background-color: #eee;
+    background-color: rgb(211, 211, 211);
     padding: 15px;
 }
 
